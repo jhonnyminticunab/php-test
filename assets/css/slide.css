@@ -1,0 +1,44 @@
+/* slider */
+.slide{
+    position:relative;
+    margin:auto;
+    width:100%;
+    overflow: hidden;
+    padding:0;
+    border: 1px solid lightgrey;
+}
+.slide img{
+    width:100%;
+}
+.slide .slideOption img{
+    position:absolute;
+    opacity:1;
+}
+.slide .slideOption .text_slider{
+    position:absolute;
+}
+.slide .slideOption h1{
+    text-transform: uppercase;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    opacity:1;
+    top:-10%;
+}
+.slide .slideOption h2{
+    text-transform: uppercase;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    opacity:1;
+    top:-10%;
+}
+.slide .slideOption h3{
+    text-transform: uppercase;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    opacity:1;
+    top:-10%;
+}
+
+.slide .slideOption .aling1{
+    text-align: left;
+}
+.slide .slideOption .aling1{
+    text-align: right;
+}
